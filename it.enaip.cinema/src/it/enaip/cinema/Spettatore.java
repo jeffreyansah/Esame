@@ -17,6 +17,11 @@ private String biglietto;
 public Spettatore() {
 }
 
+public Spettatore(int idSpettatore) {
+	
+	this.idSpettatore = idSpettatore;
+}
+
 public Spettatore(String nome, String cognome, int eta, Date birthDate, String biglietto) {
 	super();
 	this.nome = nome;
@@ -54,7 +59,7 @@ public boolean maggiorene() {
 public boolean etaMaggioredi70() {
 	return (eta > 70);
 }
-public boolean etaminredi5() {
+public boolean etaminoredi5() {
 	return( eta < 5);
 }
 
