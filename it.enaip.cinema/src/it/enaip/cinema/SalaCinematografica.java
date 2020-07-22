@@ -7,7 +7,7 @@ public class SalaCinematografica {
 
 private	Film film;
 Spettatore spetta;
-List<Spettatore> spta;
+List<Spettatore> spta; // serve per aggiungere spettatori alla lista.
 
 public SalaCinematografica(Film film, Spettatore spetta) {
 	super();
