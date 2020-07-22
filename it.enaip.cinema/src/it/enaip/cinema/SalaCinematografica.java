@@ -1,15 +1,19 @@
 package it.enaip.cinema;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class SalaCinematografica {
 
 private	Film film;
 Spettatore spetta;
-
+List<Spettatore> spta;
 
 public SalaCinematografica(Film film, Spettatore spetta) {
 	super();
 	this.film = film;
 	this.spetta = spetta;
+	spta=new ArrayList<Spettatore>();
 }
 
 
